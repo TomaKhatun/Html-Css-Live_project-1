@@ -1,0 +1,349 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+
+    body{
+        font-family: 'Montserrat', sans-serif;;
+    }
+
+
+/*Header Area Start*/
+header#hdrPart{
+    width: 100%;
+    min-height: 50px;
+    box-shadow: 0px 0px 3px 2px #efececcf;
+}
+#leftLogo{
+    width: 15px;
+    float: left;
+}
+nav.primaryNavigation{
+    width: 80%;
+    float: right;
+}
+#leftLogo img {
+    width: 89px;
+    padding-left: 53px;
+    height: 49px;
+}
+
+nav.primaryNavigation ul{
+    float: right;
+    padding-right: 74px;
+}
+nav.primaryNavigation ul li {
+    display: inline-block;
+    margin-left: -5px;
+
+}
+nav.primaryNavigation ul li a {
+    display: block;
+    text-decoration: none;
+    line-height: 26px;
+    padding: 12px 24px;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: #3c3939;
+    font-weight: 500;
+}
+nav.primaryNavigation ul li a:hover{
+    color: red;
+}
+nav.primaryNavigation ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    transition: all 0.5s;
+}
+nav.primaryNavigation ul li:hover::after{
+    width: 100%;
+}
+/*Header Area End*/
+
+/*Who I am Section code below*/
+#whoIm{
+    width: 100%;
+    overflow: hidden;
+}
+#leftIm{
+    width: 48%;
+    float: left;
+    padding-left: 26px;
+    overflow: hidden;
+}
+#leftIm>p{
+    padding: 50px 0px 15px 0px;
+}
+#leftIm>h2>span{
+    color: red;
+}
+#leftIm>h2{
+    font-size: 75px;
+}
+.rightIm{
+    float: right;
+    width: 50%;
+}
+.rightIm img{
+    width: 825px;
+    height: 520px;
+    float: right;
+}
+/*Im Section end*/
+
+/*about section start*/
+    #aboutMe{
+        overflow: hidden;
+        width: 100%;
+        border-top: 12px solid #eeeec8;
+    }
+    .leftAbout{
+        width: 48%;
+        padding-left: 26px;
+        float: left;
+    }
+    .rightAbout{
+        width: 50%;
+        float: right;
+        margin-top: 10%;
+    }
+    .rightAbout>h3{
+        padding: 15px 0px;
+    }
+    .rightAbout>p{
+        line-height: 28px;
+        margin: 10px 0px;
+    }
+    .leftAbout>img{
+        margin: 50px 50px 50px 0px;
+        border-left: 12px solid red;
+        border-top: 12px solid red;
+        width: 500px;
+        height: 600px;
+     }
+     .btn-about{
+        background: red;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+     }
+     .btn-about:hover{
+        background-color: yellow;
+        color: red;
+     }
+/*about section end*/
+/* service section start*/
+.serviceHeading{
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+    width: 675px;
+}
+.serviceHeading h2{
+    font-size: 50px;
+}
+.serviceHeading p{
+    line-height: 28px;
+}
+.fullServicePart{
+    overflow: hidden;
+    width: 100%;
+}
+.servicePart{
+    width: 30%;
+    float: left;
+    margin: auto;
+    text-align: center;
+    margin: 21px;
+    box-shadow: 0px 0px 10px 5px #e60404;
+
+}
+.servicePart>span{
+    font-size: 55px;
+    margin: 14px;
+    }
+.servicePart>span:hover{
+    color: red;
+}
+.servicePart>h3{
+    padding: 10px 0px;
+}
+.servicePart p{
+    line-height: 30px;
+}
+/* service section end*/
+/* skill section start*/
+#skillSection{
+    background: #F5F6F8;
+    overflow: hidden;
+    padding: 40px 20px;
+}
+.leftSectionSkills{
+    width: 48%;
+    float: left;
+}
+.rightSectionSkills{
+    width: 48%;
+    float: right;
+}
+.leftSectionSkills>h2{
+    color: #001149;
+    font-size: 32px;
+}
+.skp1{
+    text-align: justify;
+    padding: 20px 0px;
+    color: red;
+    
+}
+.leftSectionSkills>p{
+    line-height: 30px;
+}
+.leftSectionSkills>p>span{
+    color: green;
+}
+.hirebtn{
+    border-radius: 22px;
+    margin-top: 20px;
+    background: rgb(255, 0, 200) !important;
+}
+#progressSection{
+    padding-top: 14px;
+}
+.mainProgress{
+    height: 23px;
+    background: white;
+    border-radius: 5px;
+}
+.myProgress{
+    padding: 9px 0px;
+}
+.innerProgress1{
+    background: yellow;
+    width: 85%;
+    height: 23px;
+    float: left;
+    border-radius: 5px 0px 0px 5px;
+}
+.innerProgress2{
+    background: red;
+    width: 90%;
+    height: 23px;
+    float: left;
+    border-radius: 5px 0px 0px 5px;
+}
+.innerProgress3{
+    background: rgb(255, 47, 193);
+    width: 76%;
+    height: 23px;
+    float: left;
+    border-radius: 5px 0px 0px 5px;
+}
+.innerProgress4{
+    background: rgb(38, 0, 255);
+    width: 50%;
+    height: 23px;
+    float: left;
+    border-radius: 5px 0px 0px 5px;
+}
+.innerProgress5{
+    background: rgb(21, 255, 0);
+    width: 70%;
+    height: 23px;
+    float: left;
+    border-radius: 5px 0px 0px 5px;
+}
+
+/* skill section end*/
+
+/*contact section start*/
+#fullContact{
+    overflow: hidden;
+    padding: 45px 20px;
+}
+.leftContact{
+    width: 50%;
+    float: left;
+}
+.rightContact{
+    width: 50%;
+    float: right;
+    margin: auto;
+    text-align: center;
+}
+
+.rightContact>img{
+    height: 520px;
+    box-shadow: 0px 0px 8px 5px #dcd7d799 ;
+    border-radius: 5px;
+
+}
+
+.hireTxt{
+    font-size: 40px;
+    font-weight: 750;
+    padding: 0px 0px 25px 0px;
+}
+.leftContact>p{
+  padding: 15px 0px;
+  text-align: justify;  
+
+}
+.contactForm>form>input{
+    display: block;
+    width: 90%;
+    margin: 15px 0px;
+    height: 35px;
+    border: 3px solid #EAEAEA;
+    outline: none;
+    border-radius: 4px;
+    
+
+}
+.contactForm>form>textarea{
+    display: block;
+    width: 90%;
+    margin: 15px 0px;
+    border: 3px solid #EAEAEA;
+    outline: none;
+    border-radius: 4px;
+}
+ input.contactBtn{
+    background: #F8004E;
+    color: white;
+    width: 210px !important ;
+    height: 55px !important;
+    font-size: 23px !important;
+    border-radius: 8px !important;
+    outline: none !important;
+    cursor: pointer;
+    border: none !important;
+}
+.contactBtn:hover{
+    background: rgb(43, 255, 0);
+    color: black;
+}
+
+
+/*contact section end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
